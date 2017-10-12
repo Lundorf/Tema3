@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 
+<!-- Denne Side er kodet af Catharine Simon -->
+
 <html>
 
 <head>
@@ -50,6 +52,53 @@
       document.getElementById("mySidenav").style.display = "none";
   }
   </script>
+  <div class="container">
+    <form action="/action_page.php">
+
+      <label for="fornavn">Fornavn</label>
+      <input type="text" id="fname" name="fornavn" placeholder="Dit fornavn..">
+
+      <label for="efternavn">Efternavn</label>
+      <input type="text" id="lname" name="efternavn" placeholder="Dit efternavn..">
+
+      <label for="land">Land</label>
+      <select id="land" name="land">
+        <option value="danmark">Danmark</option>
+        <option value="sverige">Sverige</option>
+        <option value="norge">Norge</option>
+      </select>
+
+      <label for="besked">Besked</label>
+      <textarea id="subject" name="subject" placeholder="Skriv til os.." style="height:200px"></textarea>
+
+      <input type="send" value="Send">
+
+    </form>
+  </div>
+
+
+
+  <script>
+  function openNav() {
+      document.getElementById("mySidenav").style.display = "block";
+  }
+
+  function closeNav() {
+      document.getElementById("mySidenav").style.display = "none";
+  }
+  </script>
+
+  <section>
+  <img>
+  <figure>
+  <img src="img/streg.jpg" alt="streg" style="width:100%;height: auto;">
+  </figure>
+
+
+  <img src="img/tema3kontakt.jpg" alt="contact" style="width:100%;height: auto;">
+  <img>
+  <h2 class="h2kontakt">  Vi Glæder Os Til At Høre Fra Dig </h2>
+  </section>
 
   <footer>
     <p class="openhours"> Showroom åbningstider:</p>
