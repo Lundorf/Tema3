@@ -1,0 +1,309 @@
+*{
+ box-sizing: border-box;
+}
+
+header ul{
+  display: none;
+}
+
+html{
+  background-color: white;
+  min-height: 100%;
+  height: 100%;
+  max-width: 100%;
+}
+
+header{
+  position: fixed;
+  z-index: 3;
+  background-color: white;
+  width: 100%;
+  top: 0;
+  padding-bottom: 0.5em;
+}
+
+header a{
+ text-decoration: none;
+}
+
+body{
+  width: 100%;
+  min-height: 100%;
+  height: 100%;
+  margin: 0;
+}
+.sidenav {
+    display: none;
+    height: 60%;
+    width: 60%;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    background-color: rgba(55, 55 ,55, 1);
+    overflow-x: hidden;
+    padding-top: 60px;
+    border-radius: 0.5em;
+}
+
+header span{
+  right: 2.5%;
+  font-size: 40px;
+  margin-left: 50%;
+  position: absolute;
+
+}
+
+.logo{
+  max-width: 6em;
+  margin-left: 2.5%;
+  margin-top: 0.8em;
+
+}
+.sidenav a {
+    margin-left: 1em;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 160%;
+    display: block;
+}
+
+#mySidenav{
+  margin-left: 40%;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 360%;
+    margin-left: 50px;
+}
+
+body figure{
+
+position: relative;
+margin-top: 4em;
+margin-left: 0%;
+margin-right: 0%;
+}
+
+body figure h1{
+  z-index: 2;
+  font-size: 120%;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  opacity: 1;
+  right: 0;
+  font-family: 'Libre Baskerville', serif;
+  color: white;
+  text-align: center;
+  text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.4);
+}
+
+.forpic1{
+  margin-top: 1.5em;
+  z-index: 1;
+  width: 100%;
+  margin-bottom: 1.5em;
+
+}
+
+.forpic3{
+  display: none;
+}
+.forpic4{
+  display: none;
+}
+article{
+  width: 100%;
+}
+
+article h2{
+  font-size: 100%;
+  font-family: 'Oswald', sans-serif;
+  margin-left: 2.5%;
+  margin-bottom: -0.5em;
+}
+body article p{
+  font-family: 'Libre Baskerville', serif;
+  text-decoration: none;
+  color: black;
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+
+
+}
+
+body article figure img{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.fig2{
+  width: 100%;
+}
+.forpic2{
+  max-width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: -3em;
+}
+
+body footer{
+  background-color: black;
+  height: 19em;
+  max-width: 100%;
+
+}
+
+
+.openhours{
+  display: block;
+  margin-left: 2.5em;
+}
+
+.mandag{
+  margin-left: 2.5em;
+  margin-right: 1em;
+}
+
+body footer p{
+  color: white;
+  margin-right: 1em;
+  margin-left: 2.5em;
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 75%;
+}
+
+/* ------------------------------------------*/
+
+@media screen and (min-width: 382px){
+body footer p{
+  font-size: 80%;
+  }
+}
+
+/* ------------------------------------------*/
+
+@media screen and (min-width: 503px){
+body footer p{
+  font-size: 100%;
+  }
+}
+/* ------------------------------------------*/
+
+@media screen and (min-width: 700px){
+  .sidenav {
+      display: none;
+      height: 60%;
+      width: 30%;
+      position: fixed;
+      z-index: 3;
+      top: 0;
+      left: 0;
+      background-color: rgba(55, 55 ,55, 1);
+      overflow-x: hidden;
+      padding-top: 60px;
+      border-radius: 0.5em;
+  }
+
+#mySidenav{
+  margin-left: 70%;
+  }
+  body footer p{
+    font-size: 120%;
+  }
+}
+
+/* ------------------------------------------------------ */
+
+@media screen and (min-width: 1300px){
+
+  article h2{
+    font-size: 150%;
+}
+header{
+  width: 100%;
+}
+
+header ul{
+  width: 60%;
+  display: inline-block;
+  margin-left: 20%;
+  display: inline-block;
+  list-style: none;
+}
+
+header ul li{
+  text-indent: -1em;
+  text-align: center;
+  width: 15%;
+  display: inline-block;
+}
+
+header ul li a{
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: 1em;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  font-size: 150%;
+}
+
+header ul li:hover{
+  background-color: grey;
+  border-radius: 1em;
+}
+
+span{
+  display: none;
+}
+
+  body figure{
+    position: relative;
+    width: 100%;
+  }
+  body figure h1{
+    margin-left: -60%;
+  }
+
+.forpic1{
+z-index: 1;
+width: 40%;
+margin-left: 2.5%;
+  }
+.forpic4{
+display: inline-block;
+width: 0.9%;
+margin-bottom: 1.4em;
+margin-left: 7%;
+}
+
+.forpic3{
+  display: inline-block;
+  float:right;
+  width: 40%;
+  margin-right: 2.5%;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+body footer{
+  max-width: 100%;
+  background-color: black;
+  height: 18em;
+}
+
+body footer p{
+  font-size: 150%;
+}
+
+
+
+}
